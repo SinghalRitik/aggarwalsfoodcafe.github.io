@@ -1,0 +1,85 @@
+/* FOR MAKING OUR WEBSITE RESPONSIVE FOR ALL TYPES OF DEVICES */
+
+/* Navaigation bar */
+#logo {
+    margin: 22px 5px;
+    height: 30px;
+    width: 23px;
+}
+#logo img {
+    margin: 8px 0px;
+    height: 92px;
+    width: 102px;
+}
+.navbar li {
+    display: inline;
+    padding: 14px;
+    margin: 26px -3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* .navrbar li{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+} */
+.navbar ul li a{
+    font-size: 0.9rem;
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+/* Home Section */
+.home{
+    margin: 0px;
+    padding: 5px;
+    overflow: auto;
+}
+.home h1{
+    font-size: 1.72rem;
+    overflow: auto;
+}
+.home::befor{
+    height: 80%;
+}
+.home p{
+    font-size: 1.5rem;
+    padding: 5px;
+    overflow: auto;
+}
+/* Services Section */
+.services{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Client Section */
+.clients{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Contact Us Section */
+.contact{
+    overflow: auto;
+}
+.contact-items{
+    position: relative;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+.contact-items input,
+.contact-items textarea{
+    font-size: 1.0rem;
+    height:35px;
+    width: 250px;
+    border: 1px solid #e5aa3f;
+    border-radius: 5px;
+    padding: 15px 15px;
+}
+/* Footer */
+.foot{
+    font-size:0.6rem;
+}
